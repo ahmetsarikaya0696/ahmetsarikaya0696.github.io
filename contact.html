@@ -6,27 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" href="html.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect"href="https://fonts.googleapis.com"><link rel="preconnect"href="https://fonts.gstatic.com"crossorigin><link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Palette+Mosaic&display=swap"rel="stylesheet">
+    <style>
+        * {
+            font-family: 'David Libre', serif;
+        }
+
+        .txt{
+            border-radius: 5px;
+            outline-color: red;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Contact</h1>
     <hr>
-    <img src="fend.gif" alt="">
+    <img src="fend.gif" alt="" style="border-radius: 10px;">
     <p>Ankara/Yenimahalle/TURKEY</p>
     <p>+90 531 222 85 14</p>
     <p>ahmetsarikaya0696@gmail.com</p>
     <hr>
     <form action="">
         <label for="">Name</label>
-        <input type="text" name="Name">
+        <input type="text" class="txt" name="Name">
         <br><br>
         <label for="">Email</label>
-        <input type="text" name="Email">
+        <input type="text" class="txt" name="Email">
         <br><br>
         <label for="">Message</label>
         <br>
-        <textarea name="Message" id="" cols="30" rows="10"></textarea>
+        <textarea name="Message" class="txt" cols="30" rows="10"></textarea>
         <br>
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" style="border-radius: 7px; font-weight: bold;">
     </form>
     <br>
     <a href="index.html">
